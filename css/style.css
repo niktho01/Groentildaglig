@@ -547,7 +547,8 @@ footer p {
 
 
 /* Standard mobil (< 768px) */
-@media (max-width: 768px) {
+@media (max-width: 768px)and (min-width: 391px)
+{
     .hero h1 {
         font-size: 2rem;
     }
@@ -642,6 +643,99 @@ footer p {
     }
 }
 
+/* Standard mobil (< 768px) */
+@media (max-width:390px)
+{
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    /* De tre navlinks på første linje */
+    .navlink {
+        flex-shrink: 0;
+    }
+
+    /* nav-buttons fylder hele bredden = hopper ned på ny linje */
+    .nav-buttons {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        flex-basis: 100%; 
+        width: 100%;
+        border: var(--white);
+    }
+
+    .nav-btn {
+        padding: 0.5rem 1.5rem;
+        white-space: nowrap;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .tips-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .tip-item {
+        width: 240px;
+        height: 240px;
+        padding: 1.75rem;
+    }
+    
+    /* Centrerer cirkel nummer 9*/
+    .tip-item:nth-child(9) {
+        grid-row: auto;
+        justify-self: center;
+    }
+    
+    .tip-number {
+        width: 35px;
+        height: 35px;
+        font-size: 0.95rem;
+    }
+    
+    .tip-content h3 {
+        font-size: 1rem;
+    }
+    
+    .tip-content p {
+        font-size: 0.85rem;
+    }
+
+    .impact-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
 
 /* OM OS SEKTION Story/fortælling boks med tekst */
 .about-story {
