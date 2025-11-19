@@ -15,15 +15,15 @@
    =========================== */
 :root {
     /* WCAG AAA kontrast (7:1 for normal tekst) */
-    --primary-green: #2F5238;       /* 7.2:1 mod hvid - AAA! */
-    --light-green: #5F9268;         /* Justeret for bedre kontrast */
-    --dark-green: #1E3625;          /* 12.5:1 mod hvid - AAA! */
+    --primary-green: #2F5238;       
+    --light-green: #5F9268;         
+    --dark-green: #1E3625;          
     --beige: #E8DCC4;
     --light-beige: #F5F1E8;
     --white: #FFFFFF;
-    --text-dark: #1A1D1F;           /* 16.4:1 mod hvid - AAA! */
-    --text-light: #4A5259;          /* 8.2:1 mod hvid - AAA! */
-    
+    --text-dark: #1A1D1F;           
+    --text-light: #4A5259;
+   
     /* Fokus farve for tilgængelighed */
     --focus-color: #2F5238;
     --focus-outline-width: 3px;
