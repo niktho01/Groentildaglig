@@ -14,7 +14,7 @@
     <header>
         <nav aria-label="Hovednavigation">
             <div class="logo">
-                <img src="images/Groentildagliglogo.png" alt="Grøn Til Daglig logo">
+                <img src="images/Groentildagliglogo.png" class="logo-image">
                 <span>Grøn Til Daglig</span>
             </div>
             <ul class="nav-links">
@@ -22,22 +22,22 @@
                 <li class="navlink"><a href="#genbrug">Genbrug</a></li>
                 <li class="navlink"><a href="#tips">Tips</a></li>
                 <!-- Her samles Kontakt Os og Om Os -->
-                <li class="nav-buttons">
-                    <a href="kontakt.html" class="nav-btn">Kontakt Os</a>
-                    <a href="omos.html" class="nav-btn">Om os</a>
-                </li>
+               <div class="nav-buttons">
+        <a href="kontakt.html" class="nav-btn">Kontakt os</a>
+        <a href="omos.html" class="nav-btn">Om os</a>
+    </div>
             </ul>
         </nav>
     </header>
 
     <main id="main-content">
-        <section class="hero" aria-labelledby="hero-heading">
+        <section class="hero">
             <h1 id="hero-heading">Små skridt gør en stor forskel</h1>
             <p>Velkommen til din guide til en mere bæredygtig hverdag. Sammen kan vi skabe positive forandringer!</p>
         </section>
-
-        <img src="images/savetheworld.jpg" alt="Lille pige på skulder af forældre holder en blå ballon der forestiller jorden" class="heltebillede">
-        
+<figure>
+        <img src="images/savetheworld.jpg" alt="Lille pige sidder på skulderen af forældre og holder en ballon formet som jorden" class="heltebillede">
+        </figure>
         <div class="container">
             <section id="madspild" aria-labelledby="madspild-heading">
                 <h2 id="madspild-heading">Stop madspild</h2>
@@ -81,74 +81,56 @@
                 </div>
             </section>
 
-            <section id="tips" aria-labelledby="tips-heading">
-                <h2 id="tips-heading">9 nemme vaner til en grønnere hverdag</h2>
-                <ol class="tips-list">
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">1</span>
-                        <div class="tip-content">
-                            <h3>Medbring din egen pose</h3>
-                            <p>Hav altid en stofpose i tasken. Du spare penge, og undgår Plastikposer</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">2</span>
-                        <div class="tip-content">
-                            <h3>Sluk lyset</h3>
-                            <p>Husk at slukke lyset når du forlader rummet. Små skridt kan gøre en forskel på sigt</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">3</span>
-                        <div class="tip-content">
-                            <h3>Vælg genopfyldelige produkter</h3>
-                            <p>Fyld din drikkedunk eller din sæbedispenser, det reducerer affald drastisk</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">4</span>
-                        <div class="tip-content">
-                            <h3>Støt lokale producenter</h3>
-                            <p>Sæsonens grøntsager fra lokale gårde smager bedre og har kortere transport</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">5</span>
-                        <div class="tip-content">
-                            <h3>Reparer i stedet for at kassere</h3>
-                            <p>Se om dine ting kan ordnes. Enten på en lokal café eller lær at fikse det selv</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">6</span>
-                        <div class="tip-content">
-                            <h3>Offentlig Transport</h3>
-                            <p>Spar på klimatrykket ved at tage bussen eller toget for at spare på CO2 udslippet.</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">7</span>
-                        <div class="tip-content">
-                            <h3>Sortér affald</h3>
-                            <p>Plastik, metal og glas kan genanvendes, og det reducerer CO2 niveauet</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">8</span>
-                        <div class="tip-content">
-                            <h3>Biodiversitet</h3>
-                            <p>Lad et stykke af din have gro, det stabiliserer vores økosystemet og spare CO2</p>
-                        </div>
-                    </li>
-                    <li class="tip-item">
-                        <span class="tip-number" aria-hidden="true">9</span>
-                        <div class="tip-content">
-                            <h3>Spar på vandet</h3>
-                            <p>Tag korte bade, lad ikke vandhanen løbe. Det spare på vandet og på energi</p>
-                        </div>
-                    </li>
-                </ol>
-            </section>
+           <section id="tips" aria-labelledby="tips-heading">
+    <h2 id="tips-heading">9 nemme vaner til en grønnere hverdag</h2>
+    <div class="tips-list">
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">1</span>
+            <h3>Medbring din egen pose</h3>
+            <p>Hav altid en stofpose i tasken. Du spare penge, og undgår Plastikposer</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">2</span>
+            <h3>Sluk lyset</h3>
+            <p>Husk at slukke lyset når du forlader rummet. Små skridt kan gøre en forskel på sigt</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">3</span>
+            <h3>Vælg genopfyldelige produkter</h3>
+            <p>Fyld din drikkedunk eller din sæbedispenser, det reducerer affald drastisk</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">4</span>
+            <h3>Støt lokale producenter</h3>
+            <p>Sæsonens grøntsager fra lokale gårde smager bedre og har kortere transport</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">5</span>
+            <h3>Reparer i stedet for at kassere</h3>
+            <p>Se om dine ting kan ordnes. Enten på en lokal café eller lær at fikse det selv</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">6</span>
+            <h3>Offentlig Transport</h3>
+            <p>Spar på klimatrykket ved at tage bussen eller toget for at spare på CO2 udslippet.</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">7</span>
+            <h3>Sortér affald</h3>
+            <p>Plastik, metal og glas kan genanvendes, og det reducerer CO2 niveauet</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">8</span>
+            <h3>Biodiversitet</h3>
+            <p>Lad et stykke af din have gro, det stabiliserer vores økosystemet og spare CO2</p>
+        </article>
+        <article class="tip-item">
+            <span class="tip-number" aria-hidden="true">9</span>
+            <h3>Spar på vandet</h3>
+            <p>Tag korte bade, lad ikke vandhanen løbe. Det spare på vandet og på energi</p>
+        </article>
+    </div>
+</section>
 
             <section class="impact-section" aria-labelledby="impact-heading">
                 <h2 id="impact-heading">Vores mål for 2026</h2>
@@ -174,7 +156,7 @@
    <footer role="contentinfo">
         <p>Vi skaber en grønnere fremtid i fælleskab - ét skridt ad gangen</p>
         <br>
-        <p><small> <p>Email: Groentildaglig@hotmail.com</p>
+        <small> <p>Email: Groentildaglig@hotmail.com</p>
             <p>telefon: +45 12345678 </p>
            <p>Kontakt os hver dag fra 8-16</p>
         </p>© 2025 Grøn Til Daglig</small></p>
